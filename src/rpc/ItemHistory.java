@@ -75,8 +75,6 @@ public class ItemHistory extends HttpServlet {
 		     array.put(obj);
 		   }
 		   RpcHelper.writeJsonArray(response, array);
-
-
 	}
 
 	/**
